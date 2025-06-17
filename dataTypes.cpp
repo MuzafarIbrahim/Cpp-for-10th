@@ -1,25 +1,21 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
     int age = 23;  // only integer values
-    float b = 2.2; // only decimal numbers
+    float b = 2.4; // only decimal numbers
     double c = 25; // decimal as well as integer numbers.
     double d = 25.5;
-    string name = "Muzafar Ibrahim"; // full letters and characeters, paragraphs, lines etc
+    string name = "Muzafar Ibrahim"; 
+    // full letters and characeters, paragraphs, lines etc
     char grade = 'A';                // only letters or characters
 
-    cout << "My age is " << age << endl;
-    cout << "My name is " << name << endl;
-    cout << "My grade is " << grade << endl;
+    cout << "My name is "<< name;
 
     return 0;
 }
 
-/* char grade = 'A';
-bool isPassed = true;
-
-cout<<"Grade "<<grade<<endl;
-cout<<"Passed: "<<isPassed<<endl;
-*/
+// getline method to read more than one word and spaces.
+// getline(cin, academyName);
