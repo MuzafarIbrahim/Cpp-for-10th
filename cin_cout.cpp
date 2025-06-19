@@ -8,16 +8,18 @@ int main()
     char grade;
 
     cout << "What is your age? ";
-    cin >> age; // takes input from user.w
+    cin >> age; // takes input from user.
     cout << "What is your grade in 10th? " << endl;
     cin >> grade;
+
+    cin.ignore(); // <-- This line clears the leftover newline from buffer
+
     cout << "What is your name? ";
-    cin >> name;
-    // getline(cin, name);
+    getline(cin, name);
 
-    // cout<< "My name is " << name << endl;
-
-    cout << "My name is " << name << " and I am " << age << " years old. I got " << grade << " in 10th class" << endl;
+    cout << "My name is " << name << " and I am " 
+    << age << " years old. I got " << grade 
+    << " in 10th class" << endl;
 
     return 0;
 }
