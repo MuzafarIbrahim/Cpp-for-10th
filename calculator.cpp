@@ -1,4 +1,5 @@
 #include <iostream>
+//#include <conio.h>
 using namespace std;
 
 int main()
@@ -14,15 +15,14 @@ int main()
 
     */
 
-    double a, b;
+    int a, b;
 
-    cout << "Enter value for a: ";
-    cin >> a;
-    cout << "Enter value for b:";
-    cin >> b;
-
-    double sum = a + b;
-    cout << "Sum of two numbers is: " << sum << endl;
+    cout << "Enter any two numbers: ";
+    cin >> a >> b;
+    cout << "Their product is: " << a * b << endl;
+    cout << "their division is: " << a/b << endl;
+    cout << "remainder is: " << a%b << endl;
+    //cout << "Their product is: " << a * b << endl;
 
     return 0;
 
@@ -31,3 +31,13 @@ int main()
     <<
     */
 }
+
+
+
+
+
+
+
+
+                  //
+                 /* */ 
